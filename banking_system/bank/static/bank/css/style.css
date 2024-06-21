@@ -1,0 +1,196 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.jumbotron {
+    background: url('https://example.com/your-image.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+
+.navbar-brand {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 1.5rem;
+    color: #5f6368 !important;
+}
+
+.nav-link {
+    color: #5f6368 !important;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-link:hover {
+    background-color: #f3f1f1;
+}
+
+footer {
+    background-color: #343a40;
+}
+
+/* style.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.navbar-brand, .nav-link {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.list-group-item {
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+}
+
+.list-group-item:hover {
+    background-color: #f2f2f2;
+}
+/* style.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar-brand, .nav-link {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 1.5rem;
+}
+
+/* style.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar-brand, .nav-link {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.container h1 {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 2rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d5b9b2;
+}
+
+/* Navbar Styles */
+.bg-light {
+    background-color: #f2e9e4 !important;
+}
+
+.navbar-brand {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 1.5rem;
+    color: #5f6368 !important;
+}
+
+.nav-link {
+    color: #5f6368 !important;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-link:hover {
+    background-color: #f3f1f1;
+}
+
+/* About Section Styles */
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+    background-color: #355070;
+}
+
+.inner-container {
+    width: 50%;
+    padding: 100px;
+    color: white;
+}
+
+.inner-container h1 {
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.inner-container .text {
+    font-size: 15px;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.hero-img-div {
+    width: 50%;
+    text-align: center;
+}
+
+.hero-img {
+    border-radius: 25rem;
+    height: 70vh;
+    width: 70vh;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #212529;
+    color: white;
+}
+
+.footer .text-danger {
+    color: #dc3545 !important;
+}
+
+.footer .btn-danger {
+    background-color: #dc3545;
+    border: none;
+}
+
+.footer .btn-danger:hover {
+    background-color: #bd2130;
+}
+
+.footer .fa {
+    margin-right: 15px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.footer .fa:hover {
+    color: #dc3545;
+}
+
+.about-section {
+    padding: 0%;
+}
+
+.hero-img {
+    border-radius: 1px;
+    height: 100px;
+    width: 100px;
+}

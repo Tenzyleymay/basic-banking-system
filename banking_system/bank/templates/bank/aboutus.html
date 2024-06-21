@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Sparks Bank</title>
+    {% load static %}
+    <!-- AOS (Animate on Scroll) Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Bootstrap CSS (optional for grid and utilities) -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{% static 'bank/css/style.css' %}">
+</head>
+<body onload="loader()">
+
+    <!-- Loader for splash screen -->
+    <div id="loading"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="{% url 'home' %}">Sparks Bank</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'home' %}">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'customers' %}">Customers</a>
+              </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="{% url 'aboutus' %}">About Us <span class="sr-only">(current)</span></a>
+            </li>
+            
+          </ul>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <div class="about-section">
+        <div class="inner-container" data-aos="fade-right">
+            <h1>About Sparks Bank</h1>
+            <p class="text">
+                Sparks Bank is the place where customers feel the sense of safety for their property. In the bank, where customers can send money in an easy way. Transaction of money is the main part where customers take shelter of the bank. Now to keep the belief and trust of customers, there is the positive need for management of the bank, which can handle all this with comfort and ease. Smooth and efficient management affects the satisfaction of the customers indirectly. And the main use of Virtual currency is a type of unregulated digital currency that is only available in electronic form. It is stored and transacted only through designated software, mobile or computer applications, or through dedicated digital wallets, and the transactions occur over the internet through secure, dedicated networks.
+            </p>
+        </div>
+        <div class="hero-img-div" data-aos="fade-down">
+            <img class="hero-img" src="https://img.icons8.com/?size=100&id=vqqFmivXDmT9&format=png&color=000000" alt="About Us Image">
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white py-4">
+      <div class="container">
+        <div class="row">
+     
+          <div class="col-md-12">
+            <h3 class="text-danger">My Address</h3>
+            <p>
+              Jabalpur, Madya Pradesh<br>
+              482011
+            </p>
+            <p>Email: <a href="mailto:chimet808@gmail.com" class="text-white">chimet808@gmail.com</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- AOS Animation Scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 700,
+      });
+    </script>
+
+    <!-- Loader Script -->
+    <script>
+      function loader() {
+        document.getElementById("loading").style.display = 'none';
+      }
+    </script>
+</body>
+</html>
